@@ -1,0 +1,95 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arimo', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: #b3fff0;
+  color: #333;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/img/13.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/img/12.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/img/8.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("/img/9.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+.navbg {
+  background-color: #78e6d0;
+
+}
+
+.title {
+  letter-spacing: 0.3em;
+}
+
+a {
+  color: #017c63;
+  
+}
+
+a:hover {
+  color: #00c49c;
+  text-decoration: none;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  bgimg-4 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
