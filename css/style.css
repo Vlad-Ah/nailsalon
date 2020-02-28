@@ -34,49 +34,27 @@ html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-<<<<<<< HEAD
   background-image: url("../img/13.jpg");
-=======
-  background-image: url('/img/13.jpg');
->>>>>>> init
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-<<<<<<< HEAD
   background-image: url("../img/12.JPG");
-=======
-  background-image: url("/img/12.jpg");
->>>>>>> init
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-<<<<<<< HEAD
   background-image: url("../img/9.JPG");
-=======
-  background-image: url("/img/8.jpg");
->>>>>>> init
   min-height: 400px;
 }
 
 .bgimg-4 {
-<<<<<<< HEAD
   background-image: url("../img/0.jpg");
   min-height: 400px;
 }
 
-=======
-  background-image: url("/img/9.jpg");
-  min-height: 400px;
-}
-
-.w3-wide {
-  letter-spacing: 10px;
-}
->>>>>>> init
 
 .w3-hover-opacity {
   cursor: pointer;
@@ -87,7 +65,6 @@ html {
 
 }
 
-<<<<<<< HEAD
 span .title {
   letter-spacing: 0.3em;
   line-height: auto;
@@ -95,19 +72,11 @@ span .title {
   display: inline;
   text-align: justify;
 
-=======
-.title {
-  letter-spacing: 0.3em;
->>>>>>> init
 }
 
 a {
   color: #017c63;
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> init
 }
 
 a:hover {
@@ -115,7 +84,6 @@ a:hover {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 i,
 .fa {
   text-decoration: none;
@@ -128,24 +96,14 @@ i,
   margin: 16px auto;
 }
 
-=======
->>>>>>> init
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
 
   .bgimg-1,
   .bgimg-2,
   .bgimg-3,
-<<<<<<< HEAD
   .bgimg-4 {
     background-attachment: scroll;
     min-height: 400px;
   }
 }
-=======
-  bgimg-4 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
->>>>>>> init
