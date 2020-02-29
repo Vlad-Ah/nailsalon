@@ -25,7 +25,8 @@ html {
 .bgimg-1,
 .bgimg-2,
 .bgimg-3,
-.bgimg-4 {
+.bgimg-4,
+.bgimg-5 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,15 +56,22 @@ html {
   min-height: 400px;
 }
 
+.bgimg-5 {
+  background-image: url("../img/14.jpg");
+  min-height: 100%;
+}
+
 
 .w3-hover-opacity {
   cursor: pointer;
 }
 
+
 .navbg {
   background-color: #78e6d0;
 
 }
+
 
 span .title {
   letter-spacing: 0.3em;
@@ -96,14 +104,25 @@ i,
   margin: 16px auto;
 }
 
+.w3-button {
+  transition: ease-out 0.4s;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
 
   .bgimg-1,
   .bgimg-2,
   .bgimg-3,
-  .bgimg-4 {
+  .bgimg-4,
+  .bgimg-5 {
     background-attachment: scroll;
     min-height: 400px;
   }
-}
+
+  @media only screen and (max-device-width: 804px) {
+
+    .buton {
+      display: none !important;
+    }
+  }
