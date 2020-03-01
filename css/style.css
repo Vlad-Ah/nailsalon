@@ -108,6 +108,15 @@ i,
   transition: ease-out 0.4s;
 }
 
+.indent {
+  text-indent: 20px;
+}
+
+.stat {
+  max-width: 70%;
+  margin: auto;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
 
@@ -117,7 +126,7 @@ i,
   .bgimg-4,
   .bgimg-5 {
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 300px;
   }
 
   @media only screen and (max-device-width: 804px) {
