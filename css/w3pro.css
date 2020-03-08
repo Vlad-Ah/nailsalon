@@ -363,7 +363,7 @@ a {
 }
 
 .w3-btn:hover {
-    box-shadow: 0 8px 16px 0 rgb(241, 16, 16), 0 6px 20px 0 rgba(253, 10, 10, 0.966)
+    box-shadow: 0 8px 16px 0 rgb(0, 128, 128), 0 6px 20px 0 rgba(0, 128, 128)
 }
 
 .w3-btn,
@@ -471,20 +471,20 @@ a {
 
 .w3-dropdown-hover:first-child,
 .w3-dropdown-click:hover {
-    background-color: #ccc;
+    background-color: #008080;
     color: #000
 }
 
 .w3-dropdown-hover:hover>.w3-button:first-child,
 .w3-dropdown-click:hover>.w3-button:first-child {
-    background-color: rgb(247, 10, 10);
-    color: rgb(230, 16, 16)
+    background-color: rgb(0, 128, 128);
+    color: rgb(0, 128, 128)
 }
 
 .w3-dropdown-content {
     cursor: auto;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #008080;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -1107,7 +1107,7 @@ a {
 }
 
 .w3-codespan {
-    color: crimson;
+    color: teal;
     background-color: #f1f1f1;
     padding-left: 4px;
     padding-right: 4px;
@@ -1469,7 +1469,7 @@ a {
 
 .w3-button:hover {
     color: white 
-    background-color: teal ;
+    background-color: rgb(0, 128, 128) ;
 }
 
 .w3-transparent,
